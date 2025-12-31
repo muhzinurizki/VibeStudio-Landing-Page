@@ -1,3 +1,8 @@
+# Preview
+<img width="1920" height="1536" alt="HeroSection" src="https://github.com/user-attachments/assets/e945a0a8-f602-492c-9415-d6028b7153c9" />
+<img width="1920" height="1536" alt="ServicesSection" src="https://github.com/user-attachments/assets/a7fd92c8-3dc4-4c54-b7ac-12476297cf69" />
+<img width="1920" height="1536" alt="AboutSection" src="https://github.com/user-attachments/assets/2fa8ac98-f23e-4036-831b-958ad5656e19" />
+
 # 🚀 VibeStudio - Single Landing Page
 
 VibeStudio adalah solusi pembuatan website "Sat-Set, Aesthetic, & Trusted" yang dirancang khusus untuk UMKM, Personal Branding, dan Mahasiswa. Mengusung konsep **Mobile First** dengan performa tinggi dan desain modern menggunakan palet warna Deep Slate & Electric Violet.
