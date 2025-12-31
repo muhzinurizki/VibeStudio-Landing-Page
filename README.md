@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 VibeStudio - Single Landing Page
 
-## Getting Started
+VibeStudio adalah solusi pembuatan website "Sat-Set, Aesthetic, & Trusted" yang dirancang khusus untuk UMKM, Personal Branding, dan Mahasiswa. Mengusung konsep **Mobile First** dengan performa tinggi dan desain modern menggunakan palet warna Deep Slate & Electric Violet.
 
-First, run the development server:
+## 🛠️ Tech Stack
+Proyek ini dibangun menggunakan teknologi mutakhir untuk memastikan kecepatan akses dan kemudahan skalabilitas:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Framework:** [Next.js 14+](https://nextjs.org/) (App Router)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) (Utility-first CSS)
+- **Icons:** [Lucide React](https://lucide.dev/) (Consistent & Minimalist)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/) (Smooth transitions)
+- **Deployment:** [Vercel](https://vercel.com/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏗️ Struktur Proyek (Modular)
+Kami menggunakan pendekatan komponen modular agar setiap section mudah dikelola:
+- `/src/components/sections`: Berisi section mandiri (Hero, Services, Pricing, dll).
+- `/src/constants`: Berisi konfigurasi data seperti link navigasi dan harga.
+- `/src/app`: Entry point utama menggunakan Next.js App Router.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚡ Fitur Utama
+- [x] **Responsive Design:** Sempurna di HP, Tablet, maupun Desktop.
+- [x] **Glassmorphism Navbar:** Efek blur modern pada header.
+- [ ] **Direct WA Integration:** Konversi instan melalui pesan otomatis.
+- [ ] **Fast Loading:** Skor PageSpeed 90+.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Cara Menjalankan Lokal
+1. Clone repository ini.
+2. Instal dependensi: `npm install`.
+3. Jalankan server development: `npm run dev`.
+4. Buka `localhost:3000` di browser Anda.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+Built with ✨ by **Code Asisten** & **VibeStudio Team**.
