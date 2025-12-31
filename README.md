@@ -1,38 +1,45 @@
-# Preview
-<img width="1920" height="1536" alt="HeroSection" src="https://github.com/user-attachments/assets/e945a0a8-f602-492c-9415-d6028b7153c9" />
-<img width="1920" height="1536" alt="ServicesSection" src="https://github.com/user-attachments/assets/a7fd92c8-3dc4-4c54-b7ac-12476297cf69" />
-<img width="1920" height="1536" alt="AboutSection" src="https://github.com/user-attachments/assets/2fa8ac98-f23e-4036-831b-958ad5656e19" />
+<div align="center">
+  <img width="1920" alt="VibeStudio Hero" src="https://github.com/user-attachments/assets/e945a0a8-f602-492c-9415-d6028b7153c9" />
+  
+  <br />
 
-# 🚀 VibeStudio - Single Landing Page
+  <h1>✨ VibeStudio — Next-Gen Landing Page</h1>
+  
+  <p align="center">
+    <b>Sat-Set, Aesthetic, & Trusted.</b><br />
+    Solusi digital modern untuk UMKM, Personal Brand, dan Mahasiswa.
+  </p>
 
-VibeStudio adalah solusi pembuatan website "Sat-Set, Aesthetic, & Trusted" yang dirancang khusus untuk UMKM, Personal Branding, dan Mahasiswa. Mengusung konsep **Mobile First** dengan performa tinggi dan desain modern menggunakan palet warna Deep Slate & Electric Violet.
-
-## 🛠️ Tech Stack
-Proyek ini dibangun menggunakan teknologi mutakhir untuk memastikan kecepatan akses dan kemudahan skalabilitas:
-
-- **Framework:** [Next.js 14+](https://nextjs.org/) (App Router)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/) (Utility-first CSS)
-- **Icons:** [Lucide React](https://lucide.dev/) (Consistent & Minimalist)
-- **Animations:** [Framer Motion](https://www.framer.com/motion/) (Smooth transitions)
-- **Deployment:** [Vercel](https://vercel.com/)
-
-## 🏗️ Struktur Proyek (Modular)
-Kami menggunakan pendekatan komponen modular agar setiap section mudah dikelola:
-- `/src/components/sections`: Berisi section mandiri (Hero, Services, Pricing, dll).
-- `/src/constants`: Berisi konfigurasi data seperti link navigasi dan harga.
-- `/src/app`: Entry point utama menggunakan Next.js App Router.
-
-## ⚡ Fitur Utama
-- [x] **Responsive Design:** Sempurna di HP, Tablet, maupun Desktop.
-- [x] **Glassmorphism Navbar:** Efek blur modern pada header.
-- [ ] **Direct WA Integration:** Konversi instan melalui pesan otomatis.
-- [ ] **Fast Loading:** Skor PageSpeed 90+.
-
-## 🚀 Cara Menjalankan Lokal
-1. Clone repository ini.
-2. Instal dependensi: `npm install`.
-3. Jalankan server development: `npm run dev`.
-4. Buka `localhost:3000` di browser Anda.
+  <p align="center">
+    <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-3.4-blue?style=for-the-badge&logo=tailwind-css" alt="Tailwind" />
+    <img src="https://img.shields.io/badge/Framer_Motion-11-purple?style=for-the-badge&logo=framer" alt="Framer Motion" />
+    <img src="https://img.shields.io/badge/Vercel-Deployed-success?style=for-the-badge&logo=vercel" alt="Vercel" />
+  </p>
+</div>
 
 ---
-Built with ✨ by **Code Asisten** & **VibeStudio Team**.
+
+## 📖 Deskripsi Proyek
+**VibeStudio** adalah template landing page satu halaman (single-page) yang dirancang untuk performa ekstrem dan konversi tinggi. Menggabungkan estetika **Glassmorphism** dengan palet warna *Deep Slate* & *Electric Violet*, proyek ini bertujuan memberikan impresi profesional instan bagi pengunjung.
+
+## 🛠️ Tech Stack
+Kami memilih teknologi terbaik untuk memastikan skalabilitas dan kenyamanan pengembang:
+
+* **Framework:** Next.js 15 (App Router) — Server-side rendering & optimal routing.
+* **Styling:** Tailwind CSS — Untuk desain sistem yang konsisten dan responsif.
+* **Animations:** Framer Motion — Interaksi mikro dan transisi halus.
+* **Icons:** Lucide React — Set ikon minimalis yang ringan.
+* **Typography:** Geist Sans & Mono (Next.js Fonts).
+
+## 🏗️ Arsitektur Folder (Scalable)
+Proyek ini menggunakan struktur modular untuk memudahkan kolaborasi:
+```text
+src/
+├── app/              # Entry point & Page layouts
+├── components/       # UI atomik dan komponen layout
+│   ├── sections/     # Section utama (Hero, Pricing, AI, dll)
+│   └── ui/           # Komponen kecil reusable (Button, Badge)
+├── constants/        # Data statis (Menu navigasi, list harga)
+├── utils/            # Helper functions (WhatsApp link generator)
+└── assets/           # Gambar dan SVG logo
